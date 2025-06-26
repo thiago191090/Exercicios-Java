@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 35;
+		
+	System.out.println("olá mundo!");
+	System.out.println("Julia Gostosa");
+	System.out.println(y);
+
+	}
+
+}

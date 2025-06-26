@@ -1,0 +1,17 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 35;
+		double x = 1.5656;	
+		
+	System.out.println("olá mundo!");
+	System.out.println("Julia Gostosa");
+	System.out.println(y);
+	System.out.printf("%.2f%n", x);
+
+	}
+
+}
