@@ -1,9 +1,0 @@
-package utilities;
-
-public class ConversaoDolar {
-		
-	public static double converter(double valordolar, double valorcomprar){
-		double valorreais = valordolar * valorcomprar;
-		return valorreais;
-}
-}
