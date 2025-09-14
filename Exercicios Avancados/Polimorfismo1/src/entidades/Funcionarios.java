@@ -1,0 +1,45 @@
+package entidades;
+
+public class Funcionarios {
+    private String nome;
+    private Integer horas;
+    private Double valorhoras;
+    
+    public Funcionarios(String nome, Integer horas, Double valorhoras) {
+        this.nome = nome;
+        this.horas = horas;
+        this.valorhoras = valorhoras;
+    }
+
+    public Double pagamento(){
+        return horas * valorhoras;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Integer getHoras() {
+        return horas;
+    }
+
+    public void setHoras(Integer horas) {
+        this.horas = horas;
+    }
+
+    public Double getValorhoras() {
+        return valorhoras;
+    }
+
+    public void setValorhoras(Double valorhoras) {
+        this.valorhoras = valorhoras;
+    }
+
+    
+
+    
+}
